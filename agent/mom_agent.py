@@ -97,7 +97,7 @@ Return this exact structure:
 }}"""
 
 
-# ── Ollama caller 
+# Ollama caller 
 def _call_ollama(system: str, user: str) -> dict:
     """
     Send a prompt to Ollama and return parsed JSON response.
@@ -141,7 +141,7 @@ def _call_ollama(system: str, user: str) -> dict:
         )
 
 
-# ── Public API 
+# Public API 
 
 def extract(transcript_text: str, speakers: list[str]) -> dict:
     """Pass 1: Extract MoM structure from transcript."""
