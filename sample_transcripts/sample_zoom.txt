@@ -1,0 +1,37 @@
+00:00:05 Ravi Shankar: Good morning everyone, let's get started. Today we need to cover the Q3 product roadmap, the budget approval for the new dev tools, and the client escalation from Infosys.
+00:00:18 Priya Mehta: Good morning. I have a hard stop at 10:30 so hopefully we can keep this tight.
+00:00:22 Ankit Verma: Morning all.
+00:00:25 Sneha Reddy: Hi everyone, I'm joining from the Hyderabad office today.
+00:00:30 Ravi Shankar: Great, let's start with the Q3 roadmap. Priya, you had the updated deck?
+00:00:38 Priya Mehta: Yes. So we've completed 7 of the 12 planned features for Q3. The remaining 5 are at risk due to the backend team being blocked on the authentication service refactor.
+00:00:52 Ankit Verma: How long has the auth refactor been blocking us?
+00:00:57 Priya Mehta: Three weeks now. We raised it twice in standup but no resolution yet.
+00:01:05 Ravi Shankar: That's not acceptable. Ankit, can you own the auth refactor resolution? I need a status update from you by Thursday EOD.
+00:01:14 Ankit Verma: Sure, I'll connect with the backend team today and get back to you by Thursday.
+00:01:20 Sneha Reddy: I can also help from the QA side. Once auth is unblocked we need at least 5 days for testing before release.
+00:01:30 Ravi Shankar: Noted. So if auth is resolved by Thursday, realistically we're looking at a release no earlier than next Wednesday.
+00:01:38 Priya Mehta: That's correct. And that's assuming no new blockers.
+00:01:45 Ravi Shankar: Okay. Let's move to budget. Sneha, you submitted a request for new testing tools?
+00:01:52 Sneha Reddy: Yes. We're requesting approval for Selenium Grid Cloud and a performance testing license — total cost is around 2.4 lakhs annually.
+00:02:05 Ankit Verma: Is there an open source alternative we haven't considered?
+00:02:10 Sneha Reddy: We evaluated k6 and Locust for performance testing. They work but our team has no experience with them and the ramp-up time would cost more than the license.
+00:02:22 Priya Mehta: I think the investment makes sense given the release velocity we're targeting in Q4.
+00:02:30 Ravi Shankar: Agreed. I'm approving the 2.4 lakh budget for the testing tools. Sneha, please raise the procurement request by end of today.
+00:02:38 Sneha Reddy: Will do. I'll send the procurement form to finance today.
+00:02:45 Ravi Shankar: Good. Now the Infosys escalation. Priya, what's the situation?
+00:02:52 Priya Mehta: Infosys flagged a critical bug in the reporting module — their monthly reports are showing incorrect totals. It's been happening since the v2.3 release last Friday.
+00:03:05 Ankit Verma: Is this affecting all clients or just Infosys?
+00:03:10 Priya Mehta: We've had two more clients report it in the last hour — Wipro and TCS.
+00:03:18 Ravi Shankar: This is now a P1. Ankit, drop everything else — I need a hotfix deployed by 6 PM today.
+00:03:25 Ankit Verma: Understood. I'll pull in Rajesh from the backend team. We should be able to isolate the issue within the hour.
+00:03:33 Priya Mehta: I'll personally update the Infosys account manager every two hours until this is resolved.
+00:03:40 Sneha Reddy: I'll keep a test environment ready for the hotfix validation.
+00:03:48 Ravi Shankar: Good. One open question — should we proactively notify all clients about this bug or wait for the fix first?
+00:03:55 Priya Mehta: I'd recommend proactive notification to avoid them discovering it themselves. But that's your call Ravi.
+00:04:05 Ravi Shankar: Let me think on that. I'll decide by noon and let Priya know.
+00:04:12 Ankit Verma: We'll have the root cause identified by then which might inform that decision.
+00:04:18 Ravi Shankar: Good point. Alright, I think we've covered everything. To recap — Ankit owns the auth refactor update by Thursday and the hotfix by 6 PM today. Sneha submits procurement by EOD. Priya manages the Infosys communication. I'll decide on the client notification by noon. Any questions?
+00:04:38 Priya Mehta: All clear from my side.
+00:04:40 Ankit Verma: Understood.
+00:04:42 Sneha Reddy: Got it.
+00:04:44 Ravi Shankar: Good. Thanks everyone. Let's sync again at 6 PM for the hotfix status. Meeting closed.
