@@ -1,0 +1,181 @@
+{
+  "generated_at": "2026-04-07T16:44:17.521800",
+  "source_file": "sample_transcripts\\sample_zoom.txt",
+  "minutes": {
+    "meeting_overview": {
+      "attendees": [
+        "Ravi Shankar",
+        "Priya Mehta",
+        "Ankit Verma",
+        "Sneha Reddy"
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:04:44",
+      "total_duration": "4 hours 39 minutes"
+    },
+    "topics_discussed": [
+      "Q3 product roadmap",
+      "Budget approval for new dev tools",
+      "Client escalation from Infosys"
+    ],
+    "timeline": [
+      {
+        "timestamp": "00:00:05",
+        "speaker": "Ravi Shankar",
+        "summary": "Started the meeting and covered agenda items.",
+        "key_quote": "Today we need to cover the Q3 product roadmap, the budget approval for the new dev tools, and the client escalation from Infosys."
+      },
+      {
+        "timestamp": "",
+        "speaker": "Priya Mehta",
+        "summary": "Noted her hard stop at 10:30.",
+        "key_quote": ""
+      },
+      {
+        "timestamp": "00:00:38",
+        "speaker": "Ravi Shankar",
+        "summary": "Asked Priya about the Q3 roadmap update.",
+        "key_quote": "Priya, you had the updated deck?"
+      },
+      {
+        "timestamp": "00:00:52",
+        "speaker": "Priya Mehta",
+        "summary": "Updated on Q3 roadmap progress and issues with auth refactor.",
+        "key_quote": "We've completed 7 of the 12 planned features for Q3. The remaining 5 are at risk due to the backend team being blocked on the authentication service refactor."
+      },
+      {
+        "timestamp": "00:01:05",
+        "speaker": "Ravi Shankar",
+        "summary": "Assigned Ankit to resolve auth refactor issue.",
+        "key_quote": "Ankit, can you own the auth refactor resolution?"
+      },
+      {
+        "timestamp": "00:02:45",
+        "speaker": "Ravi Shankar",
+        "summary": "Approved budget for new testing tools.",
+        "key_quote": "I'm approving the 2.4 lakh budget for the testing tools."
+      },
+      {
+        "timestamp": "00:03:05",
+        "speaker": "Priya Mehta",
+        "summary": "Updated on Infosys escalation and other client issues.",
+        "key_quote": "Infosys flagged a critical bug in the reporting module — their monthly reports are showing incorrect totals."
+      },
+      {
+        "timestamp": "00:03:18",
+        "speaker": "Ravi Shankar",
+        "summary": "Assigned Ankit to resolve Infosys escalation.",
+        "key_quote": "Ankit, drop everything else — I need a hotfix deployed by 6 PM today."
+      }
+    ],
+    "decisions_made": [
+      {
+        "decision": "Approved budget for new testing tools",
+        "decided_by": "Ravi Shankar",
+        "timestamp": ""
+      },
+      {
+        "decision": "Assigned Ankit to resolve auth refactor issue",
+        "decided_by": "Ravi Shankar",
+        "timestamp": ""
+      },
+      {
+        "decision": "Assigned Ankit to resolve Infosys escalation and deploy hotfix by 6 PM today",
+        "decided_by": "Ravi Shankar",
+        "timestamp": ""
+      }
+    ],
+    "action_items": [
+      {
+        "task": "Resolve auth refactor issue",
+        "owner": "Ankit Verma",
+        "deadline": "Thursday EOD",
+        "confidence": "high"
+      },
+      {
+        "task": "Deploy hotfix by 6 PM today",
+        "owner": "Ankit Verma",
+        "deadline": "Today, 6 PM",
+        "confidence": "high"
+      },
+      {
+        "task": "Submit procurement request for new testing tools",
+        "owner": "Sneha Reddy",
+        "deadline": "End of day today",
+        "confidence": "medium"
+      }
+    ],
+    "open_questions": [
+      {
+        "question": "Should clients be proactively notified about the bug or wait for the fix first?",
+        "raised_by": "Ravi Shankar"
+      }
+    ],
+    "sentiment_summary": [
+      {
+        "speaker": "Ravi Shankar",
+        "overall_sentiment": "Concerned",
+        "reasoning": "Expressed dissatisfaction with the auth refactor timeline and prioritized resolving it.",
+        "notable_moments": [
+          {
+            "timestamp": "",
+            "sentiment": "Negative",
+            "quote": "That's not acceptable."
+          },
+          {
+            "timestamp": "",
+            "sentiment": "Concerned",
+            "quote": "I need a status update from you by Thursday EOD."
+          }
+        ]
+      },
+      {
+        "speaker": "Priya Mehta",
+        "overall_sentiment": "Neutral",
+        "reasoning": "Provided factual updates and offered opinions without strong emotions.",
+        "notable_moments": [
+          {
+            "timestamp": "",
+            "sentiment": "Concerned",
+            "quote": "The remaining 5 are at risk due to the backend team being blocked on the authentication service refactor."
+          },
+          {
+            "timestamp": "",
+            "sentiment": "Positive",
+            "quote": "I think the investment makes sense given the release velocity we're targeting in Q4."
+          }
+        ]
+      },
+      {
+        "speaker": "Ankit Verma",
+        "overall_sentiment": "Neutral",
+        "reasoning": "Responded to questions and tasks without expressing strong emotions.",
+        "notable_moments": [
+          {
+            "timestamp": "",
+            "sentiment": "Concerned",
+            "quote": "How long has the auth refactor been blocking us?"
+          },
+          {
+            "timestamp": "",
+            "sentiment": "Positive",
+            "quote": "I'll pull in Rajesh from the backend team. We should be able to isolate the issue within the hour."
+          }
+        ]
+      },
+      {
+        "speaker": "Sneha Reddy",
+        "overall_sentiment": "Neutral",
+        "reasoning": "Provided information and offered assistance without expressing strong emotions.",
+        "notable_moments": [
+          {
+            "timestamp": "",
+            "sentiment": "Positive",
+            "quote": "I can also help from the QA side. Once auth is unblocked we need at least 5 days for testing before release."
+          }
+        ]
+      }
+    ],
+    "meeting_mood": "Concerned and focused on resolving issues, with a sense of urgency and prioritization."
+  }
+}

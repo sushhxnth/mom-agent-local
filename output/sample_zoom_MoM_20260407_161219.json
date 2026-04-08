@@ -1,0 +1,193 @@
+{
+  "generated_at": "2026-04-07T16:12:19.880522",
+  "source_file": "sample_transcripts\\sample_zoom.txt",
+  "minutes": {
+    "meeting_overview": {
+      "attendees": [
+        "Ravi Shankar",
+        "Priya Mehta",
+        "Ankit Verma",
+        "Sneha Reddy"
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:04:44",
+      "total_duration": "4 hours 39 minutes"
+    },
+    "topics_discussed": [
+      "Q3 product roadmap",
+      "budget approval for new dev tools",
+      "client escalation from Infosys"
+    ],
+    "timeline": [
+      {
+        "timestamp": "00:00:05",
+        "speaker": "Ravi Shankar",
+        "summary": "Started the meeting and covered the agenda.",
+        "key_quote": "Today we need to cover the Q3 product roadmap, the budget approval for the new dev tools, and the client escalation from Infosys."
+      },
+      {
+        "timestamp": "",
+        "speaker": "Priya Mehta",
+        "summary": "Noted her hard stop at 10:30.",
+        "key_quote": ""
+      },
+      {
+        "timestamp": "00:00:38",
+        "speaker": "Ravi Shankar",
+        "summary": "Asked Priya about the updated Q3 roadmap deck.",
+        "key_quote": "Priya, you had the updated deck?"
+      },
+      {
+        "timestamp": "00:01:05",
+        "speaker": "Ravi Shankar",
+        "summary": "Assigned Ankit to resolve the auth refactor issue by Thursday EOD.",
+        "key_quote": "Ankit, can you own the auth refactor resolution? I need a status update from you by Thursday EOD."
+      },
+      {
+        "timestamp": "00:01:45",
+        "speaker": "Ravi Shankar",
+        "summary": "Discussed the budget approval for new testing tools.",
+        "key_quote": ""
+      },
+      {
+        "timestamp": "00:02:52",
+        "speaker": "Priya Mehta",
+        "summary": "Informed about the Infosys escalation regarding a critical bug in the reporting module.",
+        "key_quote": "Infosys flagged a critical bug in the reporting module — their monthly reports are showing incorrect totals."
+      },
+      {
+        "timestamp": "00:03:18",
+        "speaker": "Priya Mehta",
+        "summary": "Notified that two more clients, Wipro and TCS, were also affected.",
+        "key_quote": "We've had two more clients report it in the last hour — Wipro and TCS."
+      },
+      {
+        "timestamp": "00:03:25",
+        "speaker": "Ravi Shankar",
+        "summary": "Assigned Ankit to deploy a hotfix by 6 PM today.",
+        "key_quote": "Ankit, drop everything else — I need a hotfix deployed by 6 PM today."
+      },
+      {
+        "timestamp": "00:04:05",
+        "speaker": "Ravi Shankar",
+        "summary": "Discussed the possibility of proactive notification to clients about the bug.",
+        "key_quote": ""
+      }
+    ],
+    "decisions_made": [
+      {
+        "decision": "Ankit owns the auth refactor update by Thursday and the hotfix by 6 PM today.",
+        "decided_by": "Ravi Shankar",
+        "timestamp": ""
+      },
+      {
+        "decision": "Sneha submits procurement for new testing tools by EOD.",
+        "decided_by": "Ravi Shankar",
+        "timestamp": ""
+      },
+      {
+        "decision": "Priya manages the Infosys communication.",
+        "decided_by": "Ravi Shankar",
+        "timestamp": ""
+      }
+    ],
+    "action_items": [
+      {
+        "task": "Ankit to resolve auth refactor issue by Thursday EOD.",
+        "owner": "Ankit Verma",
+        "deadline": "Thursday EOD",
+        "confidence": "high"
+      },
+      {
+        "task": "Sneha to submit procurement for new testing tools by EOD.",
+        "owner": "Sneha Reddy",
+        "deadline": "EOD",
+        "confidence": "high"
+      },
+      {
+        "task": "Priya to manage Infosys communication.",
+        "owner": "Priya Mehta",
+        "deadline": "",
+        "confidence": "medium"
+      },
+      {
+        "task": "Ankit to deploy hotfix by 6 PM today.",
+        "owner": "Ankit Verma",
+        "deadline": "6 PM today",
+        "confidence": "high"
+      }
+    ],
+    "open_questions": [
+      {
+        "question": "Should the team proactively notify all clients about the bug or wait for the fix first?",
+        "raised_by": "Ravi Shankar"
+      }
+    ],
+    "sentiment_summary": [
+      {
+        "speaker": "Ravi Shankar",
+        "overall_sentiment": "Concerned",
+        "reasoning": "Expressed dissatisfaction with the auth refactor timeline and prioritized resolving it.",
+        "notable_moments": [
+          {
+            "timestamp": "",
+            "sentiment": "Negative",
+            "quote": "That's not acceptable."
+          },
+          {
+            "timestamp": "",
+            "sentiment": "Concerned",
+            "quote": "I need a status update from you by Thursday EOD."
+          }
+        ]
+      },
+      {
+        "speaker": "Priya Mehta",
+        "overall_sentiment": "Neutral",
+        "reasoning": "Provided factual updates and supported Ravi's decisions without expressing personal sentiment.",
+        "notable_moments": [
+          {
+            "timestamp": "",
+            "sentiment": "Concerned",
+            "quote": "The remaining 5 are at risk due to the backend team being blocked on the authentication service refactor."
+          },
+          {
+            "timestamp": "",
+            "sentiment": "Positive",
+            "quote": "I think the investment makes sense given the release velocity we're targeting in Q4."
+          }
+        ]
+      },
+      {
+        "speaker": "Ankit Verma",
+        "overall_sentiment": "Concerned",
+        "reasoning": "Acknowledged the auth refactor issue and committed to resolving it, but also showed some urgency.",
+        "notable_moments": [
+          {
+            "timestamp": "",
+            "sentiment": "Negative",
+            "quote": "How long has the auth refactor been blocking us?"
+          },
+          {
+            "timestamp": "",
+            "sentiment": "Concerned",
+            "quote": "I'll pull in Rajesh from the backend team. We should be able to isolate the issue within the hour."
+          }
+        ]
+      },
+      {
+        "speaker": "Sneha Reddy",
+        "overall_sentiment": "Neutral",
+        "reasoning": "Provided information and supported Ravi's decisions without expressing personal sentiment.",
+        "notable_moments": [
+          {
+            "timestamp": "",
+            "sentiment": "Positive",
+            "quote": "I can also help from the QA side. Once auth is unblocked we need at least 5 days for testing before release."
+          }
+        ]
+      }
+    ],
+    "meeting_mood": "The meeting had a sense of urgency and concern, with Ravi prioritizing resolving issues and Ankit committing to action plans."
+  }
+}

@@ -1,0 +1,21 @@
+Future (Not Now, But Designed For)
+
+MultilingualNormalizer -- will preserve original text, not strip non-ASCII
+Batch mode -- CLI will accept folder path, not just single file
+Gemini/Claude -- swapProvider interface 
+Portal integration -- JSON output is already API-ready
+
+Now no chunking as of prototype - if large duration - Speaker-Turn Aware Chunking.
+uses 3 layers 
+Layer 1 — Natural Boundary Detection
+Layer 2 — Overlap Window
+Layer 3 — Metadata Carry-Forward
+
+Prompt Templates as Config
+prompts/
+├── extraction.yaml       # Pass 1 — who said what, timeline
+├── sentiment.yaml        # Pass 2 — sentiment per speaker
+├── validation.yaml       # Pass 2 — hallucination guard
+├── merge.yaml            # Final merge pass
+└── system_base.yaml      # Shared system prompt injected into all calls
+

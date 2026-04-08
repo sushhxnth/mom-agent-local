@@ -1,0 +1,17 @@
+mom-agent/
+├── main.py                        ← CLI entry point
+├── config.py                      ← all settings, LLM swap-ready
+├── requirements.txt
+├── parsers/
+│   ├── __init__.py                ← format detector & dispatcher
+│   ├── txt_parser.py              ← plain text
+│   ├── docx_parser.py             ← Word docs
+│   ├── pdf_parser.py              ← PDFs
+│   └── auto_parser.py             ← Zoom / Teams / Meet
+├── agent/
+│   ├── normalizer.py              ← → {speaker, timestamp, text}[]
+│   └── mom_agent.py               ← 2-pass Ollama extraction
+├── output/
+│   └── writer.py                  ← rich terminal + JSON save
+└── sample_transcripts/
+    └── sample_zoom.txt            ← ready to test with
