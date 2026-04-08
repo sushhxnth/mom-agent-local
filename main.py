@@ -19,7 +19,7 @@ def main(
 ):
     console.print(f"\n[bold blue]MoM Agent[/bold blue] — processing [cyan]{file}[/cyan]\n")
 
-    # ── Step 1: Parse ──────────────────────────────────────────────────────────
+    #  Parse
     with Progress(SpinnerColumn(), TextColumn("{task.description}"), console=console) as p:
         task = p.add_task("Reading transcript...", total=None)
         try:
@@ -36,7 +36,7 @@ def main(
         console.print("[red]Error:[/red] File appears to be empty or unreadable.")
         raise typer.Exit(1)
 
-    # ── Step 2: Normalize ──────────────────────────────────────────────────────
+    # Normalize 
     with Progress(SpinnerColumn(), TextColumn("{task.description}"), console=console) as p:
         task = p.add_task("Normalizing transcript...", total=None)
         turns          = normalize(raw_text)
@@ -50,7 +50,7 @@ def main(
             "MoM will treat the whole text as one block."
         )
 
-    # ── Step 3: LLM Extraction (2 passes) ─────────────────────────────────────
+    #  LLM Extraction (2 passes) 
     console.print("\n[dim]Sending to Ollama — this may take 20–60 seconds...[/dim]\n")
 
     with Progress(SpinnerColumn(), TextColumn("{task.description}"), console=console) as p:
@@ -62,7 +62,7 @@ def main(
             raise typer.Exit(1)
         p.update(task, description="[green]✓ Extraction + sentiment complete[/green]")
 
-    # ── Step 4: Output ─────────────────────────────────────────────────────────
+    # Output 
     display(mom, source_file=file)
 
     saved = save_json(mom, source_file=file)
