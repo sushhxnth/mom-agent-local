@@ -31,7 +31,7 @@ def display(mom: dict, source_file: str) -> None:
     console.rule("[bold blue] MOM Ptype [/bold blue]")
     console.print()
 
-    # ── Meeting Overview ──
+    # Meeting Overview
     overview = mom.get("meeting_overview", {})
     attendees = ", ".join(overview.get("attendees", [])) or "Not detected"
     start     = overview.get("start_time", "") or "—"
@@ -54,7 +54,7 @@ def display(mom: dict, source_file: str) -> None:
         for i, topic in enumerate(topics, 1):
             console.print(f"  {i}. {topic}")
 
-    # ── Timeline ──
+    #Timeline 
     timeline = mom.get("timeline", [])
     if timeline:
         console.print("\n[bold underline] Discussion Timeline[/bold underline]")
@@ -83,7 +83,7 @@ def display(mom: dict, source_file: str) -> None:
                 f"  {ts}[bold]{d.get('decided_by', 'Group')}:[/bold] {d.get('decision', '')}"
             )
 
-    # ── Action Items ──
+    # Action Items - can an confidence metric also here
     actions = mom.get("action_items", [])
     if actions:
         console.print("\n[bold underline] Action Items[/bold underline]")
@@ -100,7 +100,7 @@ def display(mom: dict, source_file: str) -> None:
         )
     console.print(table)
 
-    # ── Open Questions ──
+    # Open Questions
     questions = mom.get("open_questions", [])
     if questions:
         console.print("\n[bold underline] Open / Unresolved Questions[/bold underline]")
@@ -109,7 +109,7 @@ def display(mom: dict, source_file: str) -> None:
                 f"  • [dim]{q.get('raised_by', '?')}:[/dim] {q.get('question', '')}"
             )
 
-    # ── Sentiment Summary ──
+    # Sentiment Summary
     sentiments = mom.get("sentiment_summary", [])
     if sentiments:
         console.print("\n[bold underline]🎭 Speaker Sentiment[/bold underline]")
