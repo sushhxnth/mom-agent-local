@@ -5,9 +5,9 @@ A local-first, LLM-powered pipeline that ingests raw meeting transcripts and pro
 
 ## What it does
 
-Takes any transcript file — plain text, Word, PDF, or auto-generated exports from Zoom, Teams, or Meet — normalizes it into speaker turns, runs two sequential LLM passes over it, and outputs a clean MoM both to the terminal and as a JSON file.
+Takes any transcript file, plain text, Word, PDF, or auto-generated exports from Zoom, Teams, or Meet, normalizes it into speaker turns, runs two sequential LLM passes over it, and outputs a clean MoM both to the terminal and as a JSON file.
 
-Pass 1 extracts the structural content: timeline, decisions, action items, open questions. Pass 2 runs sentiment analysis per speaker independently on the same transcript. Results are merged into a single output. The model is instructed at temperature 0.1 with explicit grounding constraints — it only works from what is literally present in the transcript.
+Pass 1 extracts the structural content: timeline, decisions, action items, open questions. Pass 2 runs sentiment analysis per speaker independently on the same transcript. Results are merged into a single output. The model is instructed at temperature 0.1 with explicit grounding constraints, it only works from what is literally present in the transcript.
 
 
 ## Stack
